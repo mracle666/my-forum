@@ -4,13 +4,14 @@ node_modules/
 # Build output
 dist/
 frontend/dist/
+target/
+*.class
 
-# Go binary
-backend/forum
-backend/forum.exe
+# Config with secrets
+backend-java/src/main/resources/application.yml
 
 # Uploads (local dev)
-backend/uploads/
+backend-java/uploads/
 
 # IDE
 .idea/
